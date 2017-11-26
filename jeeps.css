@@ -1,0 +1,217 @@
+	/*navbar at the top of the page*/
+.navbar {
+    background-color: #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex: 0;
+    display: inline-flex;
+    width: 100%;
+}
+
+.logo {
+    height: 35px;
+    padding-left: 1%;
+}
+
+.left {
+    justify-content: flex-start;
+    flex-basis: 25%;
+}
+
+.right {
+
+    align-self: flex-end;
+    flex-basis: 50%;
+}
+
+.links {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto',
+    sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    align-self: center;
+}
+
+.first {
+    padding-left: 2%;
+}
+
+.last {
+    margin-right: 10%;
+}
+	/*the main image under the navbar*/
+
+.slider {
+    background-image: url("slider.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    padding-bottom: 6%;
+}
+
+.deal {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 75%;
+    margin-right: 5%;
+    font-size: 40px;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.empty {
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 70%;
+}
+
+.carbutton {
+    display: flex;
+    background-color: #FEB92C;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 75%;
+    flex-basis: 10%;
+    margin-right: 14%;
+    border-radius: 2px;
+}
+
+.carbutton:hover {
+    background-color: #edac28;
+}
+
+.buildbutton {
+    display: flex;
+    background-color: #636363;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-left: 75%;
+    margin-top: 10px;
+    margin-right: 16%;
+    border-radius: 2px;
+}
+
+.buildbutton:hover {
+    background-color: #545353;
+}
+	/*the four pictures of jeeps under the hero image*/
+
+.background {
+    background-color: #D1D1D1;
+    height: 35vh;
+    
+}
+.container{
+	display: flex;
+}
+
+.card {
+    display: inline-flex;
+    flex: 1; 
+    justify-content: space-between;
+    height: 100px;
+    display: inline-block;
+    height: 300px;
+
+    
+   
+}
+
+.card1 {
+  
+    height: 100%;
+}
+
+.card2 {  
+     height: 100%;
+}
+
+.card3 { 
+     height: 100%;
+}
+
+.card4 {
+     height: 100%;
+}
+
+.learn {
+	display: inline-flex;
+    background-color: #212121;
+    width: 23%;
+    padding-top:1%;
+    padding-right:;
+    padding-bottom:1%;
+    padding-right:;
+    flex: 0;
+    justify-content: center;
+     
+}
+.more{
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 60%;
+
+
+}
+.more:hover {
+	text-decoration: underline;
+
+}
+.unite{
+
+
+}
+	/*the title and the two rows of jeeps with prices*/
+h1{
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+.jeepheader{
+	font-family: 'Roboto';
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-end;
+	flex-basis: 25%;
+}
+
+.firstrow{
+	display: flex;
+
+}
+.secondrow{
+
+}
+.jeeppic{
+	width: 25%;
+}

@@ -1,0 +1,489 @@
+    .container {
+        display: flex;
+    }
+
+    .logo {
+        height: 4vh;
+        margin-top: 2vh;
+        margin-left: 4vw;
+    }
+
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    ul.topnav li {
+        float: left;
+    }
+
+    ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    ul.topnav li.right {
+        float: right;
+        background-color: #E7E7E7;
+
+    }
+
+    ul.topnav li a.text {
+        color: black;
+        font-family: 'Roboto',
+        sans-serif;
+        font-weight: bold;
+    }
+
+    ul.topnav li.vehicles {
+        background-color: #000;
+    }
+
+    ul.topnav li a.cars {
+        font-family: 'Roboto',
+        sans-serif;
+        font-weight: bold;
+    }
+
+    .firstsquare {
+        flex: 1;
+        background-color: #3E3E3E;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 50px;
+        padding-left: 50px;
+        border-right: width 1px;
+        border-right-color: white;
+    }
+
+    .secondsquare {
+        flex: 1;
+        background-color: #3E3E3E;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 50px;
+        padding-left: 13px;
+    }
+
+    .thirdsquare {
+        flex: 1;
+        background-color: #3E3E3E;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 50px;
+        padding-left: 0px;
+    }
+
+    .forthsquare {
+        flex: 1;
+        background-color: #FEB92C;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-right:5vw;
+
+    }
+
+    .slider {
+        width: 100%;
+        max-height: 160px;
+    }
+
+    .deals {
+        justify-content: center;
+        background-color: black;
+        width: 100%;
+        padding-top: 7vh;
+    }
+
+    .deal {
+
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .blackfriday {
+        margin-left: 34%;
+        max-height: 64px;
+    }
+
+    .type {
+        color: white;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 33%;
+    }
+
+    .carbutton {
+        display: flex;
+        background-color: #FEB92C;
+        text-decoration: none;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-basis: 10%;
+        border-radius: 2px;
+        margin-right: 25%;
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    .carbutton:hover {
+        background-color: #edac28;
+    }
+
+    .buildbutton {
+        display: flex;
+        background-color: #636363;
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-right: 16%;
+        border-radius: 2px;
+        margin-right: 30%;
+        margin-left: 30%;
+        margin-bottom: 10%;
+    }
+
+    .buildbutton:hover {
+        background-color: #545353;
+    }
+
+    .buttonv {
+        padding-left: 1vw;
+        margin-top: .4vh;
+    }
+
+    .cards {
+        
+        align-items: center;
+        flex-direction: column;
+        background-color: #D1D1D1;
+
+        
+    }
+
+    .cardpic {
+        max-height: 270px;
+        margin-top: 4vh;
+    }
+
+    .learn {
+
+        background-color: #212121;
+        background-width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .more {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 60%;
+    }
+
+    .more:hover {
+        text-decoration: underline;
+    }
+
+    .learnmorev {
+        color: #FEB92C;
+        padding-left: 2vw;
+    }
+
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-left: 27%;
+        font-size: 18px;
+    }
+
+    .jeep {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .jeeps {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-bottom: 5vh;
+    }
+
+    .jeepimg {
+        display: flex;
+        max-height: 13vh;
+        flex: 1;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    .price {
+        flex: 1;
+        line-height: .7vh;
+    }
+
+    .cost {
+        font-size: 14px;
+        font-family: 'Roboto',
+        sans-serif;
+        font-weight: bold;
+    }
+
+    .msrp {
+        font-size: 8px;
+        font-family: 'Roboto',
+        sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+
+    .dollars {
+        font-family: 'Roboto',
+        sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+
+    .tradein {
+        flex-direction: column;
+        align-items: center;
+        background-color: #D1D1D1;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
+
+    .tradeintitle {
+
+        font-size: 26px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .tradeinparagraph {
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 14px;
+        font-family: 'Roboto',
+        sans-serif;
+    }
+
+    .link {
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Roboto',
+        sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .link:hover {
+        text-decoration: underline;
+    }
+
+    .search {
+        background-color: #212121;
+        padding-top: 5vh;
+    }
+
+    .helplink {
+        flex: 1;
+        color: #BFBFBF;
+        text-decoration: none;
+        font-family: 'Roboto',
+        sans-serif;
+        font-size: 14px;
+        align-items: stretch;
+        align-items: center;
+    }
+
+    .helplink:hover {
+        color: white;
+    }
+
+    .one {
+        margin-left: 5vw;
+    }
+
+    .two {
+        margin-left: 20vw;
+    }
+
+    .searchbar {
+        margin-top: 10vh;
+        margin-right: 30vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .dropdowns {
+        background-color: black;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        padding-left: 5vw;
+        padding-top: 5vh;
+    }
+
+    .dropdown {
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto',
+        sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .dropdownlink {
+        text-decoration: none;
+        font-size: 12px;
+        font-family: 'Roboto',
+        sans-serif;
+        font-weight: bold;
+        color: #F7F7F7;
+    }
+
+    .line {
+
+        border-bottom: 1px solid white;
+        flex: 1;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .v {
+        justify-content: flex-end;
+    }
+
+    .linksv {
+
+        color: white;
+        text-align: right;
+    }
+
+    .link1 {
+        padding-left: 65vw;
+    }
+
+    .link2 {
+        padding-left: 71vw;
+    }
+
+    .link3 {
+        padding-left: 64vw;
+    }
+
+    .link4 {
+        padding-left: 68vw;
+    }
+
+    .link5 {
+        padding-left: 63vw;
+    }
+
+    .link6 {
+        padding-left: 63vw;
+    }
+
+    .link7 {
+        padding-left: 67vw;
+    }
+
+    .link8 {
+        padding-left: 70vw;
+    }
+
+    .iconstitle {
+        background-color: black;
+    }
+
+    .follow {
+        color: white;
+        padding-left: 5vw;
+        font-size: 12px;
+        font-family: 'Roboto',
+        sans-serif;
+        padding-top: 5vh;
+        font-weight: bold;
+    }
+    .support{
+    	color: white;
+        padding-left: 30vw;
+        font-size: 12px;
+        font-family: 'Roboto',
+        sans-serif;
+        font-weight: bold;
+        padding-top: 5vh;
+    }
+    .icons{
+    	background-color: black;
+    	font-size: 30px;
+    	align-items: stretch;
+        flex-direction: column;
+
+    }
+    .icon{
+    	color: white;
+    	padding-left: 1vw;
+    	padding-bottom: 5vh;
+
+    }
+    .firsticon{
+    	padding-left: 5vw;
+
+    }
+    .uconnect{
+    	max-height: 50px;
+
+    }
+    .grayline{
+    	border-bottom: 1px solid #383838;
+        flex: 1;     
+    }
+    .legal{
+    	background-color: black;
+    	padding-top: 5vh;
+    	padding-left: 5vw;
+    	padding-right: 5vw;
+    	padding-bottom: 15vw;
+    }
+    .legal p{
+		font-family: 'Roboto',
+        sans-serif;
+        font-size: 10px;
+        color: #bfbfbf;
+ 
+    }
